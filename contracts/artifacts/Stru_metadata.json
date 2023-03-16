@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "manageStruct",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Enums_&_Struct.sol": "Stru"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Enums_&_Struct.sol": {
+			"keccak256": "0x1f1a06b086b5e17e01200b929ec1c494e9fa6d13749519bc2bc28db08fe09e5d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://42d2c37a6861a0599bbbc3cffd55a4fb981040e6df2ee72fc85f764ee2d2538d",
+				"dweb:/ipfs/QmcccWwp6tcEWx2ABHshFKssNkMykzh56CbS15v8PNk9kX"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "updateAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "updateAge2",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Enums_&_Struct.sol": "Modifi"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Enums_&_Struct.sol": {
+			"keccak256": "0x4c2e5a286ce8b586837ce424cd32a07bed1e1fafecf19da115ed1ababd6fc486",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://98e08111d3c3f5a2b711813aab0f1d4f4aaf55af9e842bc98bd3c9b498f15da3",
+				"dweb:/ipfs/QmXWkFasKom37M3w7o1u4Prn4Hy3QQkTzNAPV3cF1QGhu2"
+			]
+		}
+	},
+	"version": 1
+}

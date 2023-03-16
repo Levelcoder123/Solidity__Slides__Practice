@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "doSomeWork",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAge",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Function_Behaivior_Qualifier.sol": "S"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Function_Behaivior_Qualifier.sol": {
+			"keccak256": "0x7e96888be1bbef67011d1fc33c2f55c880e983c6ca1f1020861394ade4f6a90f",
+			"urls": [
+				"bzz-raw://37c3f9cb26ed775b238665aa3321154f252d3a7e683c228bed4e01123952b27e",
+				"dweb:/ipfs/QmWqD9Gys5VH5RfxpZqEhtUVmMGyRLS9nYPF5XbLChvGE3"
+			]
+		}
+	},
+	"version": 1
+}
