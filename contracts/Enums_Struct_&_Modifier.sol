@@ -133,12 +133,26 @@ contract Modifier{
             _;
         }
     }
-    function updateAge() public verifyAge(67) returns(uint) {
+    function updateAge() public pure verifyAge(67) returns(uint) {
 
     return 45;
  }
-    function updateAge2() public view verifyAge(34) returns (bool) {
+    function updateAge2() public pure verifyAge(34) returns (bool) {
         
     return true;
+    }
+}
+
+// Event
+contract eventExample {
+
+    uint256 public value = 0;
+
+    event Increment(address owner);
+
+    function getValue(uint _a, uint _b) public {
+        emit Increment(msg.sender);
+        
+        value = _a + _b;
     }
 }

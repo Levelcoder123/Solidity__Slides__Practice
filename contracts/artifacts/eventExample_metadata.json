@@ -6,22 +6,47 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
 				"inputs": [
 					{
-						"internalType": "enum Enum.Gender",
-						"name": "g",
-						"type": "uint8"
+						"indexed": false,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
 					}
 				],
-				"name": "doSomeWork",
+				"name": "Increment",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_b",
+						"type": "uint256"
+					}
+				],
+				"name": "getValue",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
 				"outputs": [
 					{
-						"internalType": "enum Enum.Gender",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -38,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Enums_Struct_&_Modifier.sol": "Enum"
+			"contracts/Enums_Struct_&_Modifier.sol": "eventExample"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

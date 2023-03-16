@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"contracts/Enums_Struct_&_Modifier.sol": {
-			"keccak256": "0xf54c08b1b45e44de0b95a8d302ee90cdb33129d3898d8965c8aac0084012ae90",
+			"keccak256": "0x261403a6c5d5db681acd3f6d33029d4236fce64862c1e781e0052878b9183325",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5e00610ddcbbcbee5b8ed5dc43fa704985d878d382386e079e2b692cf428bac2",
-				"dweb:/ipfs/QmP99PsBkLYWPLWujuJNpJpS4DP6XT6dvi8zxAddvp5LEZ"
+				"bzz-raw://17a06729d98b8b3a01300fba00f79fe3133c2e6dd5250ca661a3633fa7692514",
+				"dweb:/ipfs/QmUA84MoMzpmfxzMTUYuw18MKNWSfYYkpq2jziueTFkBAR"
 			]
 		}
 	},
