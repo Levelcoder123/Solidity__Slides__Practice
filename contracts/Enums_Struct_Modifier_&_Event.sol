@@ -70,12 +70,12 @@ contract Struct{
 
     Student stu = Student ("Rizwan", 24,  false);
 
-    function manageStruct() public pure returns (uint) {
+    function manageStruct() public pure returns (string memory, uint) {
 
         Student memory s1 = Student("Rehan",20, true);
         Student memory s2 = Student("Ahmed",10, false);
 
-        return s2.age;
+        return (s1.name, s2.age);
     }
 }
 
@@ -90,13 +90,13 @@ contract Struct2{
 
     Student stu = Student ("Rizwan", 45, false);
 
-    function manageStruct() public pure returns (uint){
+    function manageStruct() public pure returns (string memory, uint, bool){
     
         Student memory  s1 = Student ("Rehan", 40, true);
         Student memory s2 = Student ("Rizwan", 20, true);
         Student memory s3 = Student ("Kali", 80, false);
 
-        return s2.age;
+        return (s1.name, s2.age, s3.isFeePaid);
     }
 }
 
@@ -134,7 +134,7 @@ contract Modifier{
         }
     }
     function updateAge() public pure verifyAge(67) returns(uint) {
-
+        
     return 45;
  }
     function updateAge2() public pure verifyAge(34) returns (bool) {

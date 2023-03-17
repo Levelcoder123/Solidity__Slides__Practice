@@ -6,26 +6,29 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "manageStruct",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					},
+				"inputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
 					}
 				],
-				"stateMutability": "pure",
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "loop",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -42,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Enums_Struct_Modifier_&_Event.sol": "Struct2"
+			"contracts/Loop_Array_Mapping.sol": "whileLoop"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -56,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Enums_Struct_Modifier_&_Event.sol": {
-			"keccak256": "0xef5d23b61cc16bd8ab1319552a59ab8968735a564c8e1ad6b0f57e57b8767bc0",
+		"contracts/Loop_Array_Mapping.sol": {
+			"keccak256": "0xecb6f5576c362a7f5b18add5b07f3722a66c6da828d26cadade9aba29421672c",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://96663311eb302196e87e78f5477718b32f55491d25cee1dc458605347f221f36",
-				"dweb:/ipfs/QmPh8UKsR7yeNqDBif5h7GDx29Tnbg1LEbCFvJpoAdDoWV"
+				"bzz-raw://eba89650e974acb7008f17c93e3b3a6e4ee8724ae0b1eccb7be32dc98c8bfc1d",
+				"dweb:/ipfs/QmfUegu4rjGGxZjpmyKYezdTmd9vGpHt3Xh9AXNFexMEp9"
 			]
 		}
 	},
