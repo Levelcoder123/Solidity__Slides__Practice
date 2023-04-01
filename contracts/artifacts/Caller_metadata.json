@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "f",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "f2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Encapsulation_In_Solidity.sol": "Caller"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Encapsulation_In_Solidity.sol": {
+			"keccak256": "0xb724610c9adde1ae5d38a93973a01cc7a14694030269e8556ecff63d89b0e7c0",
+			"urls": [
+				"bzz-raw://2d7e7e9cb9fcae0e46afbb2f1ba4031c5d719c7598129c731a35e20c6805895b",
+				"dweb:/ipfs/QmVifXfBLF6pdB2uKvMCtBfFx17qDr6hzkYxEBu5K8voYo"
+			]
+		}
+	},
+	"version": 1
+}
