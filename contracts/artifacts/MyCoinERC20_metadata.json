@@ -252,7 +252,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/New_Token.sol": "NDCoinERC20"
+			"contracts/New_Token.sol": "MyCoinERC20"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -267,11 +267,11 @@
 	},
 	"sources": {
 		"contracts/New_Token.sol": {
-			"keccak256": "0x56a87dfab3143aee3c4f8aa4a6813f69b642a6a38afb7ecb32a93cc4b3bdbc22",
+			"keccak256": "0xb12aa16640c25a5ff6f0676b5f7b843c94a1de19b754d2d93f33f8e530904373",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://3c6eaf784cb4148b746f57b05ee244e72d405efd948738dd9c06095060b6019a",
-				"dweb:/ipfs/QmfRqArSP4MFqW3fv14wgDEaDzSGesiHDr9w5f5ycZMQV7"
+				"bzz-raw://e5338bcfed76d10bf3910e73e9819285c56177b3262bb0cf737bfeabfe65f0a3",
+				"dweb:/ipfs/QmedAMZS7RbKwv3HibTwt5sBvX59DibtjpwT3K47eZWTz4"
 			]
 		}
 	},
