@@ -19,11 +19,11 @@ contract MyCoinERC20 {
 
     mapping(address => uint256) balances; // First for holding the token balance of each owner account.
 
-    mapping(address => mapping (address => uint256)) allowed;
+    mapping(address => mapping (address => uint256)) allowed; // Second for 
 
     uint256 totalSupply_;
 
-    constructor(uint256 total) {
+    constructor (uint256 total) {
       totalSupply_ = total;
       balances[msg.sender] = totalSupply_;
     }
@@ -36,15 +36,16 @@ contract MyCoinERC20 {
         return balances[tokenOwner];
     }
 
- function transfer(address receiver, uint numOfTokens) public returns (bool) {
+ function transfer(address receiver, uint numOfTokens) public payable returns (bool) {
         require(numOfTokens <= balances[msg.sender]);
+
         balances[msg.sender] -= numOfTokens;
         balances[receiver] += numOfTokens;
         emit Transfer(msg.sender, receiver, numOfTokens);
         return true;
     }
 
-    function approve(address delegate, uint numOfTokens) public returns (bool) {
+    function approve(address delegate, uint numOfTokens) public payable returns (bool) {
         allowed[msg.sender][delegate] = numOfTokens;
         emit Approval(msg.sender, delegate, numOfTokens);
         return true;
@@ -54,14 +55,14 @@ contract MyCoinERC20 {
         return allowed[owner][delegate];
     }
 
-    function transferFrom(address owner, address buyer, uint numTokens) public returns (bool) {
-        require(numTokens <= balances[owner]);
-        require(numTokens <= allowed[owner][msg.sender]);
+    function transferFrom(address owner, address buyer, uint numOfTokens) public payable returns (bool) {
+        require(numOfTokens <= balances[owner]);
+        require(numOfTokens <= allowed[owner][msg.sender]);
 
-        balances[owner] -= numTokens;
-        allowed[owner][msg.sender] -= numTokens;
-        balances[buyer] += numTokens;
-        emit Transfer(owner, buyer, numTokens);
+        balances[owner] -= numOfTokens;
+        allowed[owner][msg.sender] -= numOfTokens;
+        balances[buyer] += numOfTokens;
+        emit Transfer(owner, buyer, numOfTokens);
         return true;
     }
 }

@@ -111,7 +111,7 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -206,7 +206,7 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
@@ -223,7 +223,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "numTokens",
+						"name": "numOfTokens",
 						"type": "uint256"
 					}
 				],
@@ -235,7 +235,7 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -267,11 +267,11 @@
 	},
 	"sources": {
 		"contracts/New_Token.sol": {
-			"keccak256": "0xb12aa16640c25a5ff6f0676b5f7b843c94a1de19b754d2d93f33f8e530904373",
+			"keccak256": "0x048ee87d8c0803a3eeaa9513ac68b8e33307b07e9340b32620580382c4ae7dda",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e5338bcfed76d10bf3910e73e9819285c56177b3262bb0cf737bfeabfe65f0a3",
-				"dweb:/ipfs/QmedAMZS7RbKwv3HibTwt5sBvX59DibtjpwT3K47eZWTz4"
+				"bzz-raw://87d4bfa7ae4b1555e4db4222578a342075dcbdb088d4ff3c7e3003476b6adfc4",
+				"dweb:/ipfs/QmZU4UxdKmSGGTPjJRuREvRxbxyXBnpEq5Xdw6pnXXp1DT"
 			]
 		}
 	},

@@ -99,7 +99,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "numOfTokens",
+						"name": "numTokens",
 						"type": "uint256"
 					}
 				],
@@ -194,7 +194,7 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "numOfTokens",
+						"name": "numTokens",
 						"type": "uint256"
 					}
 				],
@@ -252,7 +252,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/New_Token.sol": "NDCoinERC20"
+			"contracts/new_code.sol": "NDCoinERC20"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -266,12 +266,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/New_Token.sol": {
-			"keccak256": "0x56a87dfab3143aee3c4f8aa4a6813f69b642a6a38afb7ecb32a93cc4b3bdbc22",
+		"contracts/new_code.sol": {
+			"keccak256": "0xf5f037a10b028239d52c358a7482efb0358fff0a4299db315c172ff5d58019f6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://3c6eaf784cb4148b746f57b05ee244e72d405efd948738dd9c06095060b6019a",
-				"dweb:/ipfs/QmfRqArSP4MFqW3fv14wgDEaDzSGesiHDr9w5f5ycZMQV7"
+				"bzz-raw://8d9cf54c6d42212a39168a52f8d156e1f90034451e3a053c76c54169c4d1dd80",
+				"dweb:/ipfs/QmXhtdJNJNGwzCevJKZVAESJkwBGDYCRCYfSx9g6rpcLYU"
 			]
 		}
 	},
